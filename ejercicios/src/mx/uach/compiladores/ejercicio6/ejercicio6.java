@@ -1,4 +1,4 @@
-package mx.uach.compiladores.ejercicio5;
+package mx.uach.compiladores.ejercicio6;
 
 import java.util.Scanner;
 
@@ -13,6 +13,12 @@ import java.util.Scanner;
  */
 public class ejercicio6 {
         
+    /**
+     * muestra los numeros naturales desde el 1 hasta el numero introducido por 
+     * teclado.
+     * 
+     * @param args 
+     */
     public static void main(String[] args)
     {
         Scanner entrada = new Scanner(System.in);

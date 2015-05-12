@@ -9,6 +9,11 @@ package mx.uach.compiladores.ejercicio1;
  */
 public class ejercicio1 {
     
+    /**
+     * Muestra los numeros del 1 al 100 en orden.
+     * 
+     * @param args 
+     */
     public static void main(String[] args)
     {
         for (int i = 1; i <= 100; i++) {

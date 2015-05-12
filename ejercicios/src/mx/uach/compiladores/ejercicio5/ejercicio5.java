@@ -10,6 +10,12 @@ package mx.uach.compiladores.ejercicio5;
  */
 public class ejercicio5 {
         
+    /**
+     * Muestra los numeros impares desde el 1 hasta el 100 e imprime cuantos
+     * numeros impares existen.
+     * 
+     * @param args 
+     */
     public static void main(String[] args)
     {
         int a=0;

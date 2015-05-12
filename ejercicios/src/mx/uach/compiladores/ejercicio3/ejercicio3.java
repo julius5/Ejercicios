@@ -10,6 +10,11 @@ package mx.uach.compiladores.ejercicio3;
  */
 public class ejercicio3 {
     
+    /**
+     * Muestra todos los numeros pares desde el 0 hasta el 100.
+     * 
+     * @param args 
+     */
     public static void main(String[] args)
     {
         
