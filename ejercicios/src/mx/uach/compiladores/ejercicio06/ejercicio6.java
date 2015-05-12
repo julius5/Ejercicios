@@ -1,4 +1,4 @@
-package mx.uach.compiladores.ejercicio6;
+package mx.uach.compiladores.ejercicio06;
 
 import java.util.Scanner;
 

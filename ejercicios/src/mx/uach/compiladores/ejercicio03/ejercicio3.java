@@ -1,4 +1,4 @@
-package mx.uach.compiladores.ejercicio3;
+package mx.uach.compiladores.ejercicio03;
 
 /**
  * Ejercicio 3: Hacer un pseudocodigo que imprima los numeros 

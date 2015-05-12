@@ -1,4 +1,4 @@
-package mx.uach.compiladores.ejercicio4;
+package mx.uach.compiladores.ejercicio04;
 
 /**
  * Ejercicio 4: Hacer un programa que imprima la suma de los 

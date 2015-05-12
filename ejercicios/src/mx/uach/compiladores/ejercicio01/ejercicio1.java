@@ -1,4 +1,4 @@
-package mx.uach.compiladores.ejercicio1;
+package mx.uach.compiladores.ejercicio01;
 
 /**
  * Ejercicio 1: Hacer un pseudocodigo que imprima los numeros del 1 al 100.

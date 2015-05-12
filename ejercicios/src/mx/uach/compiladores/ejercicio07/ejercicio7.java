@@ -1,4 +1,4 @@
-package mx.uach.compiladores.ejercicio7;
+package mx.uach.compiladores.ejercicio07;
 
 import java.io.BufferedReader;
 import java.io.IOException;

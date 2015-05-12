@@ -1,5 +1,5 @@
 
-package mx.uach.compiladores.ejercicio8;
+package mx.uach.compiladores.ejercicio08;
 
 import java.io.IOException;
 

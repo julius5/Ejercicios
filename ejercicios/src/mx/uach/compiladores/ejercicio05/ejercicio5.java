@@ -1,4 +1,4 @@
-package mx.uach.compiladores.ejercicio5;
+package mx.uach.compiladores.ejercicio05;
 
 /**
  * Ejercicio 5: Hacer un pseudocódigo que imprima los numeros impares hasta el 
