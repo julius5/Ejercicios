@@ -5,7 +5,7 @@ import java.util.Scanner;
 /**
  * Ejercicio 32: Hacer un programa que nos permita introducir un numero por
  * teclado y sobre el se realicen las siguientes operaciones: comprobar si es
- * primo, hallar su factorial o imprimir su tabla de multiplicar
+ * primo, hallar su factorial o imprimir su tabla de multiplicar.
  *
  * @author meny
  * @since 13/05/2015

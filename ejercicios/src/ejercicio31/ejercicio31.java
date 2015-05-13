@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 /**
  * Ejercicio 31: Introducir dos nymeros por teclado y mediante un menu, 
- *               calcule su suma, su resta, su multiplicacion o su division.
+ *               calcule su suma, su resta, su multiplicacion o su division..
  *
  * @author meny
  * @since 13/05/2015
