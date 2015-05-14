@@ -9,8 +9,8 @@ import java.util.Scanner;
  *               calcule e imprima su media.
  *
  * @author meny
- * @since 12/05/2015
- * @ver
+ * @since 13/05/2015
+ * @ver 1.0
  */
 public class ejercicio34 {
     

@@ -15,38 +15,66 @@ public class ejercicio32 {
 
     public static void main(String[] args) {
         Scanner escaner = new Scanner(System.in);
-        ejercicio32 eje32 = new ejercicio32();
 
         //--- Variables
-        int a = 0;
+        int a = 0, n = 0;
         int x;
-        double factorial = 1;
+        int Resultado, y = 0;
+        double factorial = 0;
 
         System.out.println("Introduce un numero:");
-        a = escaner.nextInt();
+        n = escaner.nextInt();
         System.out.println("\n");
-    }
-/*
-    //--- Numero Primo
-    public void primo() {
-        for (int i = 1; i < (x + 1); i++) {
-            if (x % i == 0) {
-                a++;
-            }
-        }
-        if (a != 2) {
-            System.out.println("No es Primo");
-        } else {
-            System.out.println("Si es Primo");
-        }
-    }
 
-    //--- Factorial
-    public void factorial() {
-        for (int i = x;
-                i > 1; i--) {
-            factorial = factorial * i;
+        System.out.println("Que deseas hacer? \n 1) Comprobar si es Primo \n "
+                + "2) Hallar su Factorial \n 3) Imprimir tabla de multiplicar");
+        x = escaner.nextInt();
+        System.out.println("");
+
+        switch (x) {
+            case 1: {
+                if (n >= 1) {
+                    for (int i = 1; i < (n + 1); i++) {
+                        if (n % i == 0) {
+                            a++;
+                        }
+                    }
+
+                    if (a != 2) {
+                        System.out.println("No es Primo");
+                    } else {
+                        System.out.println("Si es Primo");
+                    }
+                } else {
+                    System.out.println("El numero no puede ser procesado");
+                }
+                break;
+            }
+
+            case 2: {
+                factorial = n;
+                for (int i = n; i > 2; i--) {
+                   factorial = factorial * (i - 1);
+                }
+                System.out.println("El Factorial de "+n+" es: " + factorial);
+                break;
+            }
+
+            case 3: {
+                if (n <= 10) {
+                    for (int i = 0; i <= 10; i++) {
+                        Resultado = n * y;
+                        System.out.println(n + " x " + y + " = " + Resultado);
+                        y++;
+                    }
+                } else {
+                    System.out.println("El numero introducido es mayor que 10");
+                }
+                break;
+            }
+            default:
+                System.out.println("Opcion invalida");
         }
-        System.out.println("El factorial de " + x + " es " + factorial);
-    }*/
+
+    }
 }
